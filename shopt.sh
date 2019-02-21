@@ -7,7 +7,7 @@
 shopt -s expand_aliases
 
 alias TODAY="date"
-alias UserFiles="find /home -user expresso"
+alias UserFiles="find /home -user "username""
 T=`TODAY`
 UF=`UserFiles`
 echo "The date:$T and the files associated:$UF"
