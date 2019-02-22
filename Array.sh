@@ -1,9 +1,8 @@
-#!bin/bash
+#!/bin/bash
 #Here we make use of arrays that display the servers avaliable
 
 
-SERVERLIST=("webserver01" "webserver02" "webserver03")
-
-for INDEX in ${SERVERLIST[@]}; do
-  echo "The list deploy servers $INDEX"
+TEXT=(webserver{1..3})
+for var in ${TEXT[@]}; do
+  echo "$var"
 done
